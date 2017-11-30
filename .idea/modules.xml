@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/helloController/helloController.iml" filepath="$PROJECT_DIR$/helloController/helloController.iml" />
+      <module fileurl="file://$PROJECT_DIR$/helloDao/helloDao.iml" filepath="$PROJECT_DIR$/helloDao/helloDao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/helloEntity/helloEntity.iml" filepath="$PROJECT_DIR$/helloEntity/helloEntity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/helloService/helloService.iml" filepath="$PROJECT_DIR$/helloService/helloService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testmavenweb.iml" filepath="$PROJECT_DIR$/testmavenweb.iml" />
+    </modules>
+  </component>
+</project>

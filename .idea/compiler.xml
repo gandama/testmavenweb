@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="helloController" />
+        <module name="helloDao" />
+        <module name="helloEntity" />
+        <module name="helloService" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="helloController" target="1.5" />
+      <module name="helloDao" target="1.5" />
+      <module name="helloEntity" target="1.5" />
+      <module name="helloService" target="1.5" />
+      <module name="testmavenweb" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

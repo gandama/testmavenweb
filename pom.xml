@@ -21,11 +21,17 @@
     <mybatis.version>3.2.8</mybatis.version>
     <c3p0.version>0.9.5.2</c3p0.version>
     <msp.version>1.3.0</msp.version>
+    <mysql.version>5.1.38</mysql.version>
   </properties>
 
 
   <dependencyManagement>
     <dependencies>
+      <dependency>
+        <groupId>mysql</groupId>
+        <artifactId>mysql-connector-java</artifactId>
+        <version>${mysql.version}</version>
+      </dependency>
 
       <dependency>
         <groupId>org.mybatis</groupId>

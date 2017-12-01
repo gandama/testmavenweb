@@ -1,2 +1,4 @@
-hello\entity\impl\HelloServiceImpl.class
-hello\entity\HelloService.class
+hello\service\hello2.class
+hello\service\impl\hello2Impl.class
+hello\service\HelloService.class
+hello\service\impl\HelloServiceImpl.class

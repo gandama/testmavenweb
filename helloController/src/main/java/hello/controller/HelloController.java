@@ -1,11 +1,13 @@
 package hello.controller;
 
 import hello.entity.User;
-import hello.entity.HelloService;
+import hello.service.HelloService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
+
+import java.util.List;
 
 /**
  * Created by yang on 2017/11/28.
@@ -20,10 +22,9 @@ public class HelloController {
     @RequestMapping("sayHello")
     public ModelAndView sayHello(){
         ModelAndView mv=new ModelAndView();
-        User user = helloService.findUserByName("22");
-        System.out.println("user = " + user);
+        List<User> users = helloService.findUserByName("yang");
         mv.setViewName("hello.jsp");
-        mv.addObject("user",user);
+        mv.addObject("user",users);
         mv.addObject("haha","哈哈");
         return mv;
 
